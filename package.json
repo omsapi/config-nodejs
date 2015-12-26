@@ -1,0 +1,32 @@
+{
+  "name": "omsapi-config",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "Config package on Node.js",
+  "author": "Konstantin Altuhov",
+  "keywords": [
+    "omsapi",
+    "webservices",
+    "node.js",
+    "config",
+    "api"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/omsapi/config-nodejs"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/omsapi/config-nodejs/issues"
+  },
+  "dependencies": {
+    "app-root-path": "^1.0.0",
+    "nconf": "~0.8.2"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.4"
+  }
+}
